@@ -12,9 +12,9 @@ What I do is merge these two plugin together in this repository for easy install
 
 ## Installation
 
-This plugin follows the standard runtime path structure, and as such it can 
+This plugin follows the standard runtime path structure, and as such it can
 be installed with a variety of plugin managers:
-    
+
 To install using [Vundle](https://github.com/gmarik/vundle):
 
     # add this line to your .vimrc file
