@@ -34,16 +34,12 @@ You should place the files as follows:
         <your runtime directory>/doc/acp.txt
         ...
 <
-If you are disgusted to make your runtime directory confused with a lot of
-plugins, put each of the plugins into a directory individually and just add
-the directory path to 'runtimepath'. It's easy to uninstall plugins.
+If you disgust to jumble up this plugin and other plugins in your runtime
+directory, put the files into new directory and just add the directory path to
+'runtimepath'. It's easy to uninstall the plugin.
 
-Then update your help tags files to enable help for this plugin. See
+And then update your help tags files to enable fuzzyfinder help. See
 |add-local-help| for details.
-
-Requirements: ~
-
-- L9 library (vimscript #3252)
 
 
 ==============================================================================
@@ -305,9 +301,6 @@ SPECIAL THANKS                                                    *acp-thanks*
 
 ==============================================================================
 CHANGELOG                                                      *acp-changelog*
-
-3.0: [TODO]
-  - From this version, L9 library (vimscript #3252) is required.
 
 2.14.1
   - Changed the way of auto-popup for avoiding an issue about filename
